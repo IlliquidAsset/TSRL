@@ -8,3 +8,4 @@
 2025-02-12 15:13:58.939 [info] [<unknown>][d7301802][ExtensionHostConnection] New connection established.
 2025-02-12 15:13:59.119 [info] [<unknown>][d7301802][ExtensionHostConnection] <9422> Launched Extension Host Process.
 2025-02-12 15:18:58.696 [info] New EH opened, aborting shutdown
+2025-02-12 15:38:51.095 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

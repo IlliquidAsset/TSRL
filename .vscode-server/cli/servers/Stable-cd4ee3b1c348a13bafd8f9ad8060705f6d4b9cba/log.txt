@@ -19,3 +19,4 @@ Extension host agent listening on /tmp/code-24d1d39e-af96-429d-ad37-0733f057d598
 [15:13:59] [<unknown>][d7301802][ExtensionHostConnection] <9422> Launched Extension Host Process.
 New EH opened, aborting shutdown
 [15:18:58] New EH opened, aborting shutdown
+[15:38:51] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
