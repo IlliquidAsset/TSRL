@@ -1,0 +1,12 @@
+2025-02-11 17:18:11.581 [info] 
+
+
+
+
+2025-02-11 17:18:11.581 [info] Extension host agent started.
+2025-02-11 17:18:11.592 [info] Started initializing default profile extensions in extensions installation folder. file:///teamspace/studios/this_studio/.vscode-server/extensions
+2025-02-11 17:18:11.629 [info] Completed initializing default profile extensions in extensions installation folder. file:///teamspace/studios/this_studio/.vscode-server/extensions
+2025-02-11 17:18:11.687 [info] [<unknown>][e544cc47][ManagementConnection] New connection established.
+2025-02-11 17:18:11.729 [info] [<unknown>][bb1d3325][ExtensionHostConnection] New connection established.
+2025-02-11 17:18:11.982 [info] [<unknown>][bb1d3325][ExtensionHostConnection] <2720> Launched Extension Host Process.
+2025-02-11 17:23:11.505 [info] New EH opened, aborting shutdown
