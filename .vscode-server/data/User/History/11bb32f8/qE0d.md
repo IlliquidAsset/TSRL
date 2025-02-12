@@ -273,24 +273,80 @@ Unlike traditional meta-layering approaches, which often require modifying the m
 ------------------------------------
 
 ### 4.1 Fine-Tuning vs. TSCL
-| Feature                    | Fine-Tuning | TSCL        |
-| -------------------------- | ----------- | ----------- |
-| **Modifies Model Weights** | ✅ Yes       | ❌ No        |
-| **Requires Labeled Data**  | ✅ Yes       | ❌ No        |
-| **Computational Cost**     | ❌ High      | ✅ Low       |
-| **Adaptability**           | ❌ Static    | ✅ Dynamic   |
-| **Token Efficiency**       | ❌ Higher    | ✅ Optimized |
 
+Feature
+
+Fine-Tuning
+
+TSCL
+
+**Modifies Model Weights**
+
+✅ Yes
+
+❌ No
+
+**Requires Labeled Data**
+
+✅ Yes
+
+❌ No
+
+**Computational Cost**
+
+❌ High
+
+✅ Low
+
+**Adaptability**
+
+❌ Static
+
+✅ Dynamic
+
+**Token Efficiency**
+
+❌ Higher
+
+✅ Optimized
 
 ### 4.2 RAG vs. TSCL
-| Feature                           | RAG   | TSCL                                                    |
-|-----------------------------------|-------|---------------------------------------------------------|
-| **Retrieves External Data**       | ✅ Yes | ✅ Yes (Static data, with potential for RAG integration) |
-| **Uses Static Knowledge Base**    | ❌ No  | ✅ Yes                                                   |
-| **Ensures Consistent Formatting** | ❌ No  | ✅ Yes                                                   |
-| **Supports Dynamic Queries**      | ✅ Yes | ✅ Yes                                                   |
-| **Minimizes Token Usage**         | ❌ No  | ✅ Yes                                                   |
 
+Feature
+
+RAG
+
+TSCL
+
+**Retrieves External Data**
+
+✅ Yes
+
+✅ Yes (Static data, with potential for RAG integration)
+
+**Uses Static Knowledge Base**
+
+❌ No
+
+✅ Yes
+
+**Ensures Consistent Formatting**
+
+❌ No
+
+✅ Yes
+
+**Supports Dynamic Queries**
+
+✅ Yes
+
+✅ Yes
+
+**Minimizes Token Usage**
+
+❌ No
+
+✅ Yes
 
 Unlike Retrieval-Augmented Generation (RAG), which retrieves external documents dynamically from databases or APIs, **TSCL primarily handles structured static knowledge stored on the server, with the potential to incorporate RAG for hybrid retrieval**. By combining static reference data with dynamic query context, TSCL ensures efficiency in cases where real-time retrieval is unnecessary. The pre-structured responses allow for greater predictability in AI-generated outputs without incurring additional retrieval latency.
 
@@ -307,4 +363,3 @@ Kendrick Kirk
 References
 ----------
 
-\[Citations to relevant works in AI model adaptation\]
